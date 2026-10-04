@@ -50,7 +50,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          $installer = Get-ChildItem -LiteralPath '.\artifacts\installer' -Filter '*.exe' | Select-Object -Single
+          $installer = Get-ChildItem -LiteralPath '.\artifacts\installer' -Filter '*.exe' | Select-Object -First 1
+          if ($null -eq $installer) {
+            throw '未找到安装程序。'
+          }
           $hash = (Get-FileHash -LiteralPath $installer.FullName -Algorithm SHA256).Hash
           @"
           ## 视频音轨提取软件 V1.0.1

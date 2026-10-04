@@ -1,0 +1,9 @@
+bin/
+obj/
+artifacts/
+tools/
+.vs/
+*.user
+*.suo
+src/VideoAudioExtractor/ffmpeg/*.exe
+

@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/VideoAudioExtractor/VideoAudioExtractor.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/VideoAudioExtractor.SmokeTests/VideoAudioExtractor.SmokeTests.csproj" />
+  </Folder>
+</Solution>
+

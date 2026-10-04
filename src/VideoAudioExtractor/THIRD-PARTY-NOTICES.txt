@@ -1,0 +1,15 @@
+第三方软件声明
+================
+
+本软件随附 FFmpeg 和 ffprobe 可执行程序，并通过独立进程调用它们。
+FFmpeg 项目：https://ffmpeg.org/
+许可证与法律说明：https://ffmpeg.org/legal.html
+源代码：https://ffmpeg.org/download.html#get-sources
+
+随安装包提供的 FFmpeg Windows 构建可能启用了 GPL 组件，因此该 FFmpeg
+二进制文件按 GNU General Public License 第 3 版（或其构建所附许可证）分发。
+本声明不改变本应用程序其他独立组件的许可状态。
+
+FFmpeg 的完整许可证文本随其发行构建提供，也可从以下地址查阅：
+https://www.gnu.org/licenses/gpl-3.0.html
+
